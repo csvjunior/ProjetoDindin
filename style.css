@@ -1,0 +1,380 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/*início header*/
+
+header {
+    display: flex;
+    width: 100%;
+    height: 117px;
+    background-color: #2E948A;
+    justify-content: space-between;
+}
+
+.logo-header{
+    width: 164px;
+    height: 64px;
+    margin: 33px 0px 20px 93px;
+    align-items: center;
+
+}
+
+.nav-header {
+    display: flex;
+    
+}
+
+.menu-header {
+    display: flex;
+    margin-right: 103px;
+    gap: 42px;
+    align-items: center;
+}
+
+.menu-header a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #FDFDFD;
+    gap: 42px;
+    text-transform: uppercase;
+}
+
+/* fim estilo header*/
+
+/* inicio estilo main */
+
+main {
+    display: flex;
+}
+
+
+.container-1 {                  /* inicio estilo container 1 */
+    display: flex;
+    justify-content: space-around;
+    background: #ffffff;
+    width: 100%;
+    height: 712px;
+}
+
+.container-1 h1 {
+    color: #FF4081;
+    position: absolute;
+    width: 400px;
+    left: 206px;
+    top: 242px;
+    font-size: 60px;
+}
+
+.container-1 p {
+    position: absolute;
+    width: 462px;
+    left: 207px;
+    top: 477px;
+    font-size: 27px;
+    color: #555555;
+}
+
+.container-1 button {
+    box-sizing: border-box;
+    position: absolute;
+    width: 268px;
+    height: 51px;
+    left: 207px;
+    top: 577px;
+    border: 2px solid #FF4081;
+    border-radius: 62px;
+    color:#FF4081;
+    font-size: 27px;
+    background-color: #ffffff;
+}
+
+.image-container-1{
+    display: flex;
+}
+
+.container-1 img {
+    width: 501px;
+    height: 511px;
+    margin-top: 135px;
+    margin-left: 390px;
+}                        
+
+/* fim estilo container 1 */
+
+
+
+.container-2 {          /* inicio estilo container 2 */
+    display: flex;
+    background-color: #F6F6F6;
+    width: 100%;
+    height: 730px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.banner-container-2 {
+    width: 340px;
+    text-align: center;
+    align-items: center;
+}
+
+.banner-container-2 img {
+    width: 288px;
+    height: 270px;
+    justify-content: center;
+    text-align: center;
+} 
+
+.banner-container-2 h3 {
+    font-size: 25px;
+    text-align: center;
+    color: #FF4081;
+    margin-top: 45px;
+    margin-bottom: 23px;
+}
+
+.banner-container-2 p {
+    font-size: 17px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 41px;
+}
+
+.banner-container-2 button {
+    width: 233px;
+    height: 51px;
+    background: #FF4081;
+    border-radius: 62px;
+    font-size: 20px;
+    color: #ffffff;
+    border: none;
+}
+
+/* fim estilo container 2 */
+
+
+
+.container-3 {              /* inicio estilo container 3 */
+    background-color: #ffffff;
+    width: 100%;
+    height: 701px;
+}
+
+.colunms {
+    display: flex;
+    margin-top: 78px;
+    justify-content: space-around;
+}
+
+.container-3 h2 {
+    margin-top: 119px;
+    margin-left: 128px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 37px;
+    color: #009688;
+
+}
+
+.social-proof {
+    display: flex;
+    margin-top: 86px;
+    
+}      
+
+.social-proof img {
+    width: 104px;
+    height: 104px;
+    margin-right: 28px;
+}
+
+.social-proof p {
+    width: 363px;
+    font-size: 18px;
+    font-family: 'Nunito';
+    font-style: normal;
+    margin-bottom: 10px;
+}
+
+
+
+/* fim estilo container 3 */
+
+
+
+.container-4 {              /* inicio estilo container 4 */
+    display: flex;
+    background-color: #F6F6F6;
+    width: 100%;
+    height: 730px;
+    flex-direction: column;
+    
+    
+}
+
+.content-container-4 {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+   
+}
+
+.content{
+    width: 319px;
+    
+}
+
+.container-4 h2 {
+    font-size: 37px;
+    color: #009688;
+    margin-top: 91px;
+    margin-bottom: 73px;
+}
+
+.content-banner {
+    width: 319px;
+    height: 193px;
+    background-color: #C4C4C4;
+}
+
+.content h3 {
+    margin-top: 11px;
+    font-size: 27px;
+    line-height: 31px;
+    color: #009688;
+}
+
+.container-4 button {
+    box-sizing: border-box;
+    width: 289px;
+    height: 51px;
+    border: 2px solid #FF4081;
+    border-radius: 62px;
+    color:#FF4081;
+    font-size: 25px;
+    background-color: #F6F6F6;
+    margin-top: 101px;
+}
+
+/* fim estilo container 4 */
+
+
+/* inicio página contato */
+
+.container-contact{
+    display: flex;
+    width: 100%;
+    height: 625px;
+    justify-content: space-around;
+}
+
+.form-contact form h1 {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 46px;
+    color: #FF4081;
+    margin-top: 105px;
+    margin-bottom: 44px;
+}
+
+.style-input{
+    margin-bottom: 15px;
+    width: 493px;
+    height: 32px;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border: 1px solid #686868;
+    border-radius: 7px;
+}
+
+.style-textarea {
+    width: 493px;
+    height: 193px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border: 1px solid #686868;
+    border-radius: 7px;
+}
+
+.style-button {
+    width: 108px;
+    height: 32px;
+    background: #FF4081;
+    border-radius: 50px;
+    border: none;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    text-align: center;
+    text-transform: lowercase;
+    color: #FFFFFF;
+    padding: 5px 7px 5px 7px;
+}
+
+.image-contact {
+    width: 444px;
+    height: 444px;
+    margin-top: 82px;
+}
+
+
+
+/* início do estilo footer*/
+
+footer {
+    display: flex;
+    width: 100%;
+    height: 207px;
+    background-color: #2E948A;
+    justify-content: space-around;
+}
+
+.logo-footer {
+    width: 198px;
+    height: 58px;
+    margin-top: 53px;
+}
+
+.nav-footer{
+    width: 71px;
+    height: 83px;
+    margin-top: 53px;
+}
+
+.menu-footer a{
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 33px;
+    color: #FFFFFF;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+}
+
+.button-footer {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.button-footer button {
+    width: 289px;
+    height: 51px;
+    padding: 7px 7px 7px 7px;
+    box-sizing: border-box;
+    margin-bottom: 13px;
+    border: 2px solid #FFFFFF;
+    border-radius: 62px;
+    font-size: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #2E948A;
+    cursor: pointer;
+}
