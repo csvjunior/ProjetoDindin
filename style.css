@@ -11,25 +11,30 @@ header {
     width: 100%;
     height: 117px;
     background-color: #2E948A;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    margin-right: 103px;
     justify-content: space-between;
 }
 
-.logo-header{
-    width: 164px;
-    height: 64px;
-    margin: 33px 0px 20px 93px;
-    align-items: center;
-
+header nav button {
+    display: none;
 }
 
-.nav-header {
+.logo-header{
     display: flex;
-    
+    width: 164px;
+    height: 64px;
+    margin-top: 20px;
+    margin-left: 82px;
+
 }
 
 .menu-header {
     display: flex;
-    margin-right: 103px;
     gap: 42px;
     align-items: center;
 }
@@ -46,10 +51,6 @@ header {
 
 /* inicio estilo main */
 
-main {
-    display: flex;
-}
-
 
 .container-1 {                  /* inicio estilo container 1 */
     display: flex;
@@ -59,31 +60,37 @@ main {
     height: 712px;
 }
 
-.container-1 h1 {
-    color: #FF4081;
-    position: absolute;
-    width: 400px;
-    left: 206px;
-    top: 242px;
-    font-size: 60px;
+.text-container-1 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 125px;
+    gap: 100px;
+    
+    
 }
 
-.container-1 p {
-    position: absolute;
-    width: 462px;
-    left: 207px;
-    top: 477px;
+.text-container-1 h1 {
+    display: flex;
+    color: #FF4081;
+    width: 400px;
+    font-size: 60px;
+    margin-bottom: 19px;
+}
+
+.text-container-1 p {
+    display: flex;
+    width: 462px;  
     font-size: 27px;
     color: #555555;
+    margin-bottom: 38px;
 }
 
-.container-1 button {
+.text-container-1 button {
+    display: flex;
+    padding: 8px 26px;
     box-sizing: border-box;
-    position: absolute;
     width: 268px;
     height: 51px;
-    left: 207px;
-    top: 577px;
     border: 2px solid #FF4081;
     border-radius: 62px;
     color:#FF4081;
@@ -93,14 +100,10 @@ main {
 
 .image-container-1{
     display: flex;
-}
-
-.container-1 img {
     width: 501px;
     height: 511px;
-    margin-top: 135px;
-    margin-left: 390px;
-}                        
+    margin-top: 130px;
+}                     
 
 /* fim estilo container 1 */
 
@@ -170,6 +173,7 @@ main {
 }
 
 .container-3 h2 {
+    display: flex;
     margin-top: 119px;
     margin-left: 128px;
     font-family: 'Nunito';
@@ -229,6 +233,8 @@ main {
 }
 
 .container-4 h2 {
+    display: flex;
+    margin-left: 60px;
     font-size: 37px;
     color: #009688;
     margin-top: 91px;
@@ -236,6 +242,7 @@ main {
 }
 
 .content-banner {
+    display: flex;
     width: 319px;
     height: 193px;
     background-color: #C4C4C4;
@@ -246,6 +253,10 @@ main {
     font-size: 27px;
     line-height: 31px;
     color: #009688;
+}
+
+.button-container-4 {
+    text-align: center;
 }
 
 .container-4 button {
@@ -291,6 +302,7 @@ main {
     background: #FFFFFF;
     border: 1px solid #686868;
     border-radius: 7px;
+    padding-left: 15px;
 }
 
 .style-textarea {
@@ -301,6 +313,9 @@ main {
     background: #FFFFFF;
     border: 1px solid #686868;
     border-radius: 7px;
+    padding-top: 10px;
+    padding-left: 15px;
+
 }
 
 .style-button {
@@ -338,18 +353,21 @@ footer {
 }
 
 .logo-footer {
+    display: flex;
     width: 198px;
     height: 58px;
     margin-top: 53px;
 }
 
 .nav-footer{
+    display: flex;
     width: 71px;
     height: 83px;
     margin-top: 53px;
 }
 
 .menu-footer a{
+    display: flex;
     text-decoration: none;
     font-size: 20px;
     line-height: 33px;
@@ -378,3 +396,203 @@ footer {
     background-color: #2E948A;
     cursor: pointer;
 }
+
+/* início do responsivo */
+
+/* ipad e tablet */
+
+@media (max-width: 820px) {
+    
+    /*início header*/
+
+    
+    /* header nav button {
+        display: flex;
+        margin-top: 20px;
+        height: 60px;
+        width: 60px;
+        font-size: 42px;
+        color: #ffffff;
+        border: none;
+        background-color: transparent;
+        padding-left: 10px;
+    }
+
+    header nav button:hover {
+        cursor: pointer;
+        opacity: 0.8;
+        background-color: rgba(255, 255, 255, 0.2);
+    }
+
+    button:focus ~ header{
+        display: block;
+        height: 550px;
+    }
+
+    .menu-header {
+        display: none;
+        
+    }
+
+    .menu-header a {
+        text-decoration: none;
+        font-size: 20px;
+        color: #FDFDFD;
+        gap: 42px;
+        text-transform: uppercase;
+        flex-direction: column;
+    } */
+
+    
+    .container-1 {                /* inicio estilo container 1 */
+        height: 612px;
+    }
+
+    .text-container-1 {
+        width: 100%;
+        text-align: center;
+    }
+
+    #posiction-button{
+        width: 100%;
+    }
+
+    .text-container-1 h1 {
+        width: 100%;
+    }
+    
+    .text-container-1 p {
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .text-container-1 button{
+        display: inline;
+        
+        
+    }
+    
+    .image-container-1{
+        display: none;
+    }
+    
+    /* fim estilo container 1 */
+
+    .container-2 {          /* inicio estilo container 2 */
+        height: 1930px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .banner-container-2 {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .container-3 {              /* inicio estilo container 3 */
+        background-color: #ffffff;
+        width: 100%;
+        height: 1401px;
+        text-align: center;
+        
+    }
+    
+    .colunms {
+        margin-top: 38px;
+        flex-direction: column;
+        text-align: center;
+        
+    }
+
+    .social-proof {
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    .social-proof img {
+        margin-bottom: 20px;
+        margin-right: 0px;
+    }
+
+    .container-3 h2 {
+        margin-top: 100px;
+        margin-left: 0px;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        
+    }
+
+    .container-4 {              /* inicio estilo container 4 */
+        height: 1430px;
+    }
+    
+    .content-container-4 {
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .container-4 h2 {
+        margin-left: 0px;
+        margin-top: 91px;
+        margin-bottom: 73px;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .content-banner {
+        margin-top: 30px;
+    }
+
+    /* inicio página contato */
+
+    .image-contact {
+        display: none;
+    }
+
+    /* início do footer */
+
+    footer {
+        height: 600px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo-footer {
+        display: contents;
+        margin-top: 0px;
+        width: 0px;
+        height: 0px;
+    }
+    
+    .nav-footer{
+        display: flex;
+        width: 0px;
+        height: 0px;
+        margin-top: 0px;
+    }
+    
+    .menu-footer a{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .button-footer {
+        margin-top: 50px;
+        text-align: center;
+    }
+
+    .button-footer button {
+        width: 210px;
+        height: 51px;
+
+    }
+
+}
+
+
+
