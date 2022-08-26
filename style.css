@@ -284,6 +284,7 @@ header nav button {
 }
 
 .form-contact form h1 {
+    display: flex;
     font-family: 'Ubuntu';
     font-style: normal;
     font-weight: 700;
@@ -295,6 +296,7 @@ header nav button {
 }
 
 .style-input{
+    display: flex;
     margin-bottom: 15px;
     width: 493px;
     height: 32px;
@@ -306,6 +308,7 @@ header nav button {
 }
 
 .style-textarea {
+    display: flex;
     width: 493px;
     height: 193px;
     margin-bottom: 15px;
@@ -335,6 +338,7 @@ header nav button {
 }
 
 .image-contact {
+    display: flex;
     width: 444px;
     height: 444px;
     margin-top: 82px;
@@ -405,43 +409,35 @@ footer {
     
     /*início header*/
 
+    header{
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .logo-header img{
+        width: 144px;
+        height: 44px;
+        margin-top: 15px;
+        margin-left: 8px;
     
-    /* header nav button {
-        display: flex;
-        margin-top: 20px;
-        height: 60px;
-        width: 60px;
-        font-size: 42px;
-        color: #ffffff;
-        border: none;
-        background-color: transparent;
-        padding-left: 10px;
-    }
-
-    header nav button:hover {
-        cursor: pointer;
-        opacity: 0.8;
-        background-color: rgba(255, 255, 255, 0.2);
-    }
-
-    button:focus ~ header{
-        display: block;
-        height: 550px;
     }
 
     .menu-header {
-        display: none;
-        
+        display: block;
+        justify-content: column;
+        text-align: center;
+        margin-top: 20px;
+        margin-right: 25px;
+        line-height: 25px;
     }
 
     .menu-header a {
-        text-decoration: none;
-        font-size: 20px;
-        color: #FDFDFD;
-        gap: 42px;
-        text-transform: uppercase;
-        flex-direction: column;
-    } */
+        display: block;
+        font-size: 15px;
+        justify-content: column;
+    }
+
+
 
     
     .container-1 {                /* inicio estilo container 1 */
@@ -546,6 +542,17 @@ footer {
 
     .content-banner {
         margin-top: 30px;
+    }
+
+    /* pagina de contato */
+
+    .style-input{
+        width: 293px;
+    }
+    
+    .style-textarea {
+        width: 293px;
+    
     }
 
     /* inicio página contato */
